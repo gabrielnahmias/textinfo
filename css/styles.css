@@ -1,0 +1,88 @@
+* {
+	font-family: "Courier New", Courier, monospace;
+}
+
+a { font-size: 8pt; font-weight: bold; text-decoration: none; }
+
+button {
+	background: transparent;
+	border: 0;
+	cursor: pointer;
+	padding: 3px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	vertical-align: middle;
+}
+
+h1 {
+	display: block;
+	font-weight: bold;
+}
+
+hr {
+	border: 1px solid black;
+	margin-top: 10px;
+	width: 350px;
+}
+
+hr.footer { margin-top: 20px; }
+
+input[type="button"] {
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+table.info { border: 1px solid #309; }
+table.main { height: 500px; width: 100%; }
+
+td.info, th {
+	background: #F7F7F7;
+	border: 1px solid #309;
+	padding: 10px;
+	text-align: center;
+}
+
+th {
+	background:#666;
+	color: white;
+	font-weight: bold;
+	padding: 5px;
+}
+
+textarea {
+	border: 1px solid black;
+	color: #AAA;
+	font-size: 10pt;
+	height: 200px;
+	padding: 5px;
+	width: 300px;
+}
+
+#copy {
+	margin:0;
+}
+
+#msg {
+	background: #CCD0FF;
+	border: 2px solid blue;
+	display: none;
+	margin-bottom: 10px;
+	margin-top: -10px;
+	padding: 20px 0 20px 0;
+	text-align: center;
+	width: 300px;
+	position: relative;
+	
+}
+
+#err {
+	background: #FFDFE0;
+	border: 2px solid red;
+	display: none;
+	height: 20px;
+	margin-bottom: 10px;
+	margin-top: -10px;
+	text-align: center;
+	width: 300px;
+}

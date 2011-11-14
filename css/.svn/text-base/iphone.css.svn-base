@@ -1,0 +1,22 @@
+body { text-align:center; }
+
+hr { width: 100% }
+
+input[type="button"] {
+	font-size: 12pt;
+	margin-top: 5px;
+	width: 80%;
+}
+
+table.main { height: 1px; }
+td { text-align:center; }
+
+textarea { margin-top: 50px; width: 90%; }
+
+#err {
+	font-size: 16pt;
+}
+
+#msg {
+	font-size: 16pt;
+}

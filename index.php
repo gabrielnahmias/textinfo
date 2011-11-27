@@ -5,8 +5,8 @@ define("FILE", basename( $_SERVER['PHP_SELF'] ) );
 define("ERROR_NOTEXT", "Please enter some text.");
 define("VER","1.0");
 
-include "../browser.php";
-include "../vs.php";
+include "./browser.php";
+include "./vs.php";
 //include "funcs.php";
 
 /***************
